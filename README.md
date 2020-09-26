@@ -19,7 +19,7 @@ cd registro_caminantes\
 ./manage.py runserver
 
 #Endpoint GET:
-http://localhost:8000/caminantes/\
+http://localhost:8000/caminantes/ \
 El mismo enlace le permite hacer POST
 
 #O si prefiere la terminal:\
