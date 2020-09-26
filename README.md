@@ -16,7 +16,7 @@ virtualenv -p python3 caminantesENV\
 source caminantesENV/bin/activate\
 pip install -r requirements.txt\
 cd registro_caminantes\
-./manage.py runserver\
+./manage.py runserver
 
 #Endpoint GET:
 http://localhost:8000/caminantes/
