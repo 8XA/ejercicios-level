@@ -10,8 +10,7 @@
 
 #Para correr el servidor:
 
-pip install virtualenv
-
+pip install virtualenv\
 cd ruta_del_repositorio_clonado/ejercicios-level
 
 virtualenv -p python3 caminantesENV
