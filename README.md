@@ -11,23 +11,18 @@
 #Para correr el servidor:
 
 pip install virtualenv\
-cd ruta_del_repositorio_clonado/ejercicios-level
+cd ruta_del_repositorio_clonado/ejercicios-level\
+virtualenv -p python3 caminantesENV\
+source caminantesENV/bin/activate\
+pip install -r requirements.txt\
+cd registro_caminantes\
+./manage.py runserver\
 
-virtualenv -p python3 caminantesENV
-
-source caminantesENV/bin/activate
-
-pip install -r requirements.txt
-
-cd registro_caminantes
-
-./manage.py runserver
-
-Endpoint GET:
+#Endpoint GET:
 http://localhost:8000/caminantes/
 El mismo enlace le permite hacer POST
 
-O si prefiere la terminal:
+#O si prefiere la terminal:
 pip install httpie
 El anterior paquete para hacer GET o POST como en los siguientes ejemplos:
 http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4
