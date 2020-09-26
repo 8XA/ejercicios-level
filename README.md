@@ -23,7 +23,7 @@ El mismo enlace le permite hacer POST
 
 # O si prefiere la terminal:
 pip install httpie\
-El anterior paquete para hacer GET o POST como en los siguientes ejemplos:\
+El paquete httpie sirve para hacer GET o POST como en los siguientes ejemplos:\
 http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4\
 http GET http://localhost:8000/caminantes/
 
