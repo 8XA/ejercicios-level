@@ -6,9 +6,8 @@
   - Resuelvelos con Angular o ReactJS dependiendo de la tecnología que prefieras, los 8 mejores serán los que ocupen los lugares de backend: 4 reactjs y 4 angular
 - [Móvil](https://github.com/hackademymx/frontend-level/blob/master/README-movil.md)
   - Resuelvelos usando React Native, los 4 mejores serán los que ocupen los 4 lugares disponibles.
-  
 
-#Para correr el servidor:
+# Para correr el servidor:
 
 pip install virtualenv\
 cd ruta_del_repositorio_clonado/ejercicios-level\
@@ -18,11 +17,11 @@ pip install -r requirements.txt\
 cd registro_caminantes\
 ./manage.py runserver
 
-#Endpoint GET:
+# Endpoint GET:
 http://localhost:8000/caminantes/ \
 El mismo enlace le permite hacer POST
 
-#O si prefiere la terminal:\
+# O si prefiere la terminal:
 pip install httpie\
 El anterior paquete para hacer GET o POST como en los siguientes ejemplos:\
 http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4\
