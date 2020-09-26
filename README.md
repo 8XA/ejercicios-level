@@ -10,8 +10,8 @@
 
 pip install virtualenv
 
-cd ruta_del_repositorio_clonado/ejercicios-level\n
-virtualenv -p python3 caminantesENV
+$cd ruta_del_repositorio_clonado/ejercicios-level
+$virtualenv -p python3 caminantesENV
 
 source caminantesENV/bin/activate
 
