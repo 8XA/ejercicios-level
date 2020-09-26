@@ -19,15 +19,15 @@ cd registro_caminantes\
 ./manage.py runserver
 
 #Endpoint GET:
-http://localhost:8000/caminantes/
+http://localhost:8000/caminantes/\
 El mismo enlace le permite hacer POST
 
-#O si prefiere la terminal:
-pip install httpie
-El anterior paquete para hacer GET o POST como en los siguientes ejemplos:
-http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4
+#O si prefiere la terminal:\
+pip install httpie\
+El anterior paquete para hacer GET o POST como en los siguientes ejemplos:\
+http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4\
 http GET http://localhost:8000/caminantes/
 
-Es posible que httpie se instale en el home de usuario, en tal caso las rutas son:
-~/.local/bin/http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4
+Es posible que httpie se instale en el home de usuario, en tal caso las rutas son:\
+~/.local/bin/http POST http://localhost:8000/caminantes/ nombre="Fulanito" correo="Fulanito@fulano_server.com" Km_semanales=4\
 ~/.local/bin/http GET http://localhost:8000/caminantes/
